@@ -1,0 +1,29 @@
+{
+  "name": "parcel-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odylic/parcel-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odylic/parcel-app/issues"
+  },
+  "homepage": "https://github.com/odylic/parcel-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "parcel": "^2.0.1",
+    "parcel-bundler": "^1.12.5",
+    "path": "^0.12.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
